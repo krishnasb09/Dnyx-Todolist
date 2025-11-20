@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:yellow;
+}
+.container{
+    background-color: white;
+    border:2px solid black;
+    box-shadow: 0px 8p 16px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    padding:30px;
+    width:100%;
+    max-width: 550px;
+    text-align: center;
+    
+}
+h1{
+    margin-bottom: 14px;
+
+}
+#input{
+    width:100%;
+    padding:13px;
+    border:1px solid black;
+    margin-bottom: 15px;
+    font-size: 16px;
+    margin-left: 0px;
+}
+#add-btn{
+    
+    padding:13px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: chartreuse;
+
+}
+.top-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.input-box-edit{
+    height:30px;
+    font-size: 20px;
+}
+.filter-btns{
+    width: 30%;
+    background-color: chocolate;
+    font-size:larger;
+    font-weight: 500;
+
+}
+.filter-btns:hover{
+    transform: scale(1.2);
+    box-shadow:0px 10px 16px rgba(0,0,0,0.5);
+}
+.other-btns{
+    margin-top:10px ;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.todo-item{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    align-items: center;
+    margin:10px 0;
+    padding: 8px 10px;
+    color:white;
+    background-color: rgb(39, 37, 37);
+    border-radius: 8px;
+    word-break: break-all;
+    overflow-wrap: anywhere;
+    white-space: normal;
+}
+.li-text{
+    font-size: 25px;
+}
+.delbtn,.editbtn{
+    width:70px;
+    height:40px;
+    background-color: red;
+    border:none;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.editbtn{
+    background-color: rgb(23, 140, 236);
+    width:70px;
+    height:40px;
+    border:none;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.delbtn:hover,.editbtn:hover{
+    border: 2px solid black;
+}

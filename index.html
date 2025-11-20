@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+       
+        <h1>TO DO LIST</h1>
+        <div class="top-box">
+            <div class="input-div">
+                <input type="text" id="input" placeholder="Enter a task" >
+            </div>
+            <div class="addbtn">
+                <button id="add-btn">Add task</button>
+            </div>
+            
+        </div>
+        <div class="other-btns">
+            <button class="filter-btns"  data-filter="all">All</button>
+            <button class="filter-btns" data-filter="pending">Pending</button>
+            <button class="filter-btns" data-filter="completed">Completed</button>
+        </div>
+        
+        <ul id="todolist"></ul>
+        <div id="pagination"></div>
+        
+        
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
